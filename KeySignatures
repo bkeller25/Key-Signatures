@@ -1,0 +1,125 @@
+import java.util.Scanner;
+
+public class KeySignatures {
+   
+      public static void main(String[] args) {
+      
+      Scanner sc = new Scanner(System.in);   
+      System.out.print("Major or Minor?: ");
+      String key = sc.nextLine();
+      
+      if(key.equals("Major") || key.equals("major")) {
+         System.out.print("Which Major Key?: ");
+            String key_signature = sc.nextLine();
+            
+               if (key_signature.equals("C")) {
+                  System.out.print("C D E F G A B C");
+                  }
+               if (key_signature.equals("C#")) {
+                  System.out.print("C# D# E# F# G# A# B# C#");
+                  }
+               if (key_signature.equals("Db")) {
+                  System.out.print("Db Eb F Gb Ab Bb  C Db");
+                  }
+               if (key_signature.equals("D")) {
+                  System.out.print("D E F# G A B C# D");
+                  }
+               if (key_signature.equals("D#")) {
+                  System.out.print("D# E# Fx G# A# B# Cx D#");
+                  }
+               if (key_signature.equals("E")) {
+                  System.out.print("E F# G# A B C# D# E");
+                  }
+               if (key_signature.equals("Eb")) {
+                  System.out.print("Eb F G Ab Bb C D Eb");
+                  }           
+               if (key_signature.equals("E#")) {
+                  System.out.print("E# Fx Gx A# B# Cx Dx E#");
+                  }
+               if (key_signature.equals("F")) {
+                  System.out.print("F G A Bb C D E F");
+                  }
+               if (key_signature.equals("F#")) {
+                  System.out.print("F# G# A# B C# D# E# F#");
+                  }
+               if (key_signature.equals("G")) {
+                  System.out.print("G A B C D E F# G");
+                  }
+               if (key_signature.equals("Gb")) {
+                  System.out.print("Gb Ab Bb Cb Db Eb F Gb");
+                  }
+               if (key_signature.equals("A")) {
+                  System.out.print("A B C# D E F# G# A");
+                  }
+               if (key_signature.equals("A#")) {
+                  System.out.print("A# B# Cx D# E# Fx Gx A#");
+                  }
+               if (key_signature.equals("Bb")) {
+                  System.out.print("Bb C D Eb F G A Bb");
+                  }
+               if (key_signature.equals("B")) {
+                  System.out.print("B C# D# E F# G# A# B");
+                  }
+               if (key_signature.equals("B#")) {
+                  System.out.print("B# Cx Dx E# Fx Gx Ax B#");
+                  }
+               }
+          if(key.equals("Minor") || key.equals("minor")) {
+               System.out.print("Which Minor Key?: ");
+                  String key_signature = sc.nextLine();
+                  
+                     if (key_signature.equals("C")) {
+                        System.out.print("C D Eb F G Ab Bb C");
+                        } 
+                     if (key_signature.equals("C#")) {
+                        System.out.print("C# D# E F# G# A B C#");
+                        }
+                     if (key_signature.equals("Db")) {
+                        System.out.print("Db Eb Fb GB Ab Bbb Cb Db");
+                        }
+                     if (key_signature.equals("D")) {
+                        System.out.print("D E F G A Bb C D");
+                        }
+                     if (key_signature.equals("D#")) {
+                        System.out.print("D# E# F# G# A# B C# D#");
+                        }
+                     if (key_signature.equals("Eb")) {
+                        System.out.print("Eb F Gb Ab Bb Cb D Eb");
+                        }
+                     if (key_signature.equals("E")) {
+                        System.out.print("E F# G A B C D E");
+                        }
+                     if (key_signature.equals("E#")) {
+                        System.out.print("E# Fx G# A# B# C# D# E#");
+                        }
+                     if (key_signature.equals("F")) {
+                        System.out.print("F G Ab Bb C Db Eb F");
+                        }
+                     if (key_signature.equals("F#")) {
+                        System.out.print("F# G# A B C# D E F#");
+                        }
+                     if (key_signature.equals("Gb")) {
+                        System.out.print("Gb Ab Bbb Cb Db Ebb Fb Gb");
+                        }
+                     if (key_signature.equals("G")) {
+                        System.out.print("G A Bb C D Eb F G");
+                        }
+                     if (key_signature.equals("Ab")) {
+                        System.out.print("Ab Bb Cb Db Eb Fb Gb Ab");
+                        }
+                     if (key_signature.equals("A")) {
+                        System.out.print("A B C D E F G A");
+                        }
+                     if (key_signature.equals("A#")) {
+                        System.out.print("A# B# D# E# F# G# A#");
+                        }
+                     if (key_signature.equals("Bb")) {
+                        System.out.print("Bb C Db Eb F Gb Ab Bb");
+                        }
+                     if (key_signature.equals("B")) {
+                        System.out.print("B C# D E F# G A B");
+                        }
+                   }
+                    
+         }
+  }
